@@ -28,3 +28,16 @@ print(q,w,e)
 # ------------
 
 r = float(1)
+t = float(2.8)
+y = float("3")
+u = float("4.8")
+print(r,t,y,u)
+
+# ------------
+#   Ejemplo con la funcion str()
+# ------------
+
+i = str("s1")
+o = str(2)
+p = str(3.0)
+print(i,o,p)
