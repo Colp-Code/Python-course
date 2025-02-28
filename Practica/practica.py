@@ -1,10 +1,12 @@
-def problema(frase1, frase2):
-    final = frase1[-len(frase2):]
-    print(final)
-
-    if final == frase2:
-        print(True)
+def solution(text, ending):
+    # your code here...
+    pass
+    final = len(ending)
+    palabra = text[-final:]
+    print(palabra)
+    if ending in palabra:
+        return True
     else:
-        print(type(False))
-    
-problema("dondetaspapu","hola")
+        return False 
+
+solution("pepe","pe")
